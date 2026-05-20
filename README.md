@@ -48,22 +48,12 @@ Hi, I'm **bynguts**.
 
 <div align="center">
 
-<img src="https://github.com/bynguts/github-stats/blob/generated/overview.svg" />
+<img src="https://github.com/bynguts/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
 
 <br />
 <br />
 
-<img src="https://github.com/bynguts/github-stats/blob/generated/languages.svg" />
-
-<br />
-<br />
-
-<h3>🔥 Streak Stats</h3>
-
-<img
-  src="https://github-readme-streak-stats-eight.vercel.app/?user=bynguts&background=0B0A0A&hide_border=true&ring=C9A646&fire=8B1E1E&currStreakNum=C9A646&sideNums=C9A646&currStreakLabel=D8CBB8&sideLabels=D8CBB8&dates=8A8178&short_numbers=true"
-  alt="bynguts's Streak Stats"
-/>
+<img src="https://github.com/bynguts/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
 
 </div>
 
