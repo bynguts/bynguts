@@ -19,9 +19,7 @@
 
 ## 🕯️ About Me
 
-<table>
-  <tr>
-    <td valign="top" width="60%">
+<img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="250" />
 
 Hi, I'm **bynguts**.
 
@@ -32,12 +30,7 @@ Hi, I'm **bynguts**.
 - 💻 Currently learning and building projects
 - 🔥 Make it happen!
 
-    </td>
-    <td align="center" valign="top" width="40%">
-      <img src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="260" />
-    </td>
-  </tr>
-</table>
+<br clear="right" />
 
 <br />
 
@@ -46,15 +39,17 @@ Hi, I'm **bynguts**.
 
 <br />
 
-<div align="center">
-
-<img src="https://github.com/bynguts/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
-
-<br />
-<br />
-
-<img src="https://github.com/bynguts/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
-
-</div>
+<p align="center">
+  <img 
+    align="top"
+    src="https://github.com/bynguts/github-stats/blob/generated/overview.svg#gh-dark-mode-only" 
+    width="49%" 
+  />
+  <img 
+    align="top"
+    src="https://github.com/bynguts/github-stats/blob/generated/languages.svg#gh-dark-mode-only" 
+    width="49%" 
+  />
+</p>
 
 </details>
