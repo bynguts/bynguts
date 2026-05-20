@@ -44,27 +44,33 @@ Hi, I'm **bynguts**.
 <details open>
   <summary><h2>📊 Stats and Activity</h2></summary>
 
-<h3>🔥 Streak Stats</h3>
+<br />
 
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img title="Get streak stats for your profile at git.io/streak-stats" alt="bynguts's streak" src="https://github-readme-streak-stats-eight.vercel.app/?user=bynguts&theme=monokai-metallian&hide_border=true&short_numbers=true" />
-  </a>
-</p>
-
-<h3>💻 GitHub Profile Stats</h3>
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="bynguts's GitHub Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=bynguts&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="bynguts's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=bynguts&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px" />
-  </a>
-</p>
-
-<p align="center">
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-</p>
-
-</details>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img 
+        src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=bynguts&custom_title=bynguts%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" 
+        width="430"
+        alt="bynguts's GitHub Stats"
+      />
+    </td>
+    <td align="center" valign="top">
+      <img 
+        src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=bynguts&custom_title=Most%20Used%20Languages&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" 
+        width="330"
+        alt="bynguts's Top Languages"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <br />
+      <img 
+        src="https://github-readme-streak-stats-eight.vercel.app/?user=bynguts&theme=monokai-metallian&hide_border=true&short_numbers=true" 
+        width="620"
+        alt="bynguts's Streak Stats"
+      />
+    </td>
+  </tr>
+</table>
