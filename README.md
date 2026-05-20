@@ -34,6 +34,8 @@
 
 - I want **Mac Studiooooossssssss** 😭😭😭😭😭
 
+***"Fate may be written, but the struggler keeps fighting against it."***
+
 <br clear="right" />
 
 ## 📊 Stats and Activity
