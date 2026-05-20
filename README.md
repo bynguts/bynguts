@@ -30,7 +30,7 @@
 
 - ⚔️ Guts reminds me to keep moving forward, even when life feels impossible.
 
-- 🦋 Currently building **Cereza**, an agentic AI inspired by my fav game.
+- 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰
 
 <br clear="right" />
 
