@@ -30,7 +30,7 @@
 
 - 🎮 I love story-driven single-player games.
 
-- ⚔️ Guts reminds me to keep moving forward, even when life feels impossible.
+- ⚔️ Guts is my role model.
 
 - 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰
 
