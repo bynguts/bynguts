@@ -7,13 +7,13 @@
   <img
     align="top"
     src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=bynguts&custom_title=bynguts%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646"
-    width="33%"
+    width="30%"
     alt="bynguts's GitHub Stats"
   />
   <img
     align="top"
     src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=bynguts&custom_title=Most%20Used%20Languages&langs_count=5&layout=compact&theme=react&hide_border=true&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646&hide=Jupyter%20Notebook,Roff"
-    width="27%"
+    width="25%"
     alt="bynguts's Most Used Languages"
   />
   <img
