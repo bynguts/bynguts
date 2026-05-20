@@ -1,10 +1,10 @@
 <div align="center">
 
-<h3>Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" /></h3>
+<h2>Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="38px" /></h2>
 
-<h4>⚔️ Dark Fantasy Enjoyer</h4>
+<h3>⚔️ Dark Fantasy Enjoyer</h3>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C9A646&center=true&vCenter=true&width=760&lines=Make+it+happen%21;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=C9A646&center=true&vCenter=true&width=820&lines=Make+it+happen%21;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta)](https://git.io/typing-svg)
 
 </div>
 
@@ -13,30 +13,31 @@
   <a href="https://www.instagram.com/bibinanshori?igsh=MTBnZmJyZDAzNTNlYw=="><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
   <a href="https://discord.com/users/1025391723733598228"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" /></a>
   <a href="https://open.spotify.com/user/31hu2k464exiac6fjpclqpxgkr2a"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat&logo=spotify&logoColor=white" /></a>
+  <a href="https://boxd.it/9BaD9"><img src="https://img.shields.io/badge/Letterboxd-202830?style=flat&logo=letterboxd&logoColor=white" /></a>
   <img src="https://img.shields.io/github/followers/bynguts?style=flat&logo=github&label=Followers&color=181717&labelColor=181717&logoColor=white" />
   <img src="https://api.visitorbadge.io/api/visitors?path=bynguts.bynguts&label=Visitors&labelColor=%236A0DAD&countColor=%236A0DAD&style=flat" />
 </p>
 
 <br />
 
-<h3>🕯️ About Me</h3>
+<h2>🕯️ About Me</h2>
 
-<img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="230" />
+<img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="250" />
 
-Hi, I'm **bynguts**.
+<h3>Hi, I'm <b>bynguts</b>.</h3>
 
-- 🎬 I love movies
-- ⚔️ Big fan of **Guts**
-- 🥈 Also love **Gintoki** and **Bayonetta**
-- 🩸 Dark fantasy enjoyer
-- 💻 Currently learning and building projects
-- 🔥 Make it happen!
+- 🎬 **I love movies**
+- ⚔️ **Big fan of Guts**
+- 🥈 **Also love Gintoki and Bayonetta**
+- 🩸 **Dark fantasy enjoyer**
+- 💻 **Currently learning and building projects**
+- 🔥 **Make it happen!**
 
 <br clear="right" />
 
 <br />
 
-<h3>📊 Stats and Activity</h3>
+<h2>📊 Stats and Activity</h2>
 
 <p align="center">
   <img
