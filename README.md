@@ -15,7 +15,7 @@
   <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=blueviolet" />
 </p>
 
----
+<br />
 
 ## 👤 About Me
 
@@ -38,7 +38,7 @@ Hi, I'm **bynguts**.
   </tr>
 </table>
 
----
+<br />
 
 <details open>
   <summary><h2>📊 Stats and Activity</h2></summary>
