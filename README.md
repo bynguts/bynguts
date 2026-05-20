@@ -2,8 +2,6 @@
 
 # Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" />
 
-### ⚔️ Dark Fantasy Enjoyer
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C9A646&center=true&vCenter=true&width=760&lines=Welcome+to+my+GitHub;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta;Make+it+happen%21)](https://git.io/typing-svg)
 
 </div>
