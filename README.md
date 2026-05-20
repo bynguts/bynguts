@@ -51,31 +51,29 @@ Hi, I'm **bynguts**.
 <details open>
   <summary><h2>📊 Stats and Activity</h2></summary>
 
-  <div align="center">
+<div align="center">
 
-  <p>
-    <img src="https://img.shields.io/github/followers/bynguts?style=for-the-badge&logo=github&label=FOLLOW&color=236ad3&labelColor=1155ba" />
-    <img src="https://komarev.com/ghpvc/?username=bynguts&label=VISITORS&style=for-the-badge&color=blueviolet" />
-  </p>
+<p>
+  <img src="https://img.shields.io/github/followers/bynguts?style=for-the-badge&logo=github&label=FOLLOW&color=236ad3&labelColor=1155ba" />
+  <img src="https://komarev.com/ghpvc/?username=bynguts&label=VISITORS&style=for-the-badge&color=blueviolet" />
+</p>
 
-  <h3>📈 GitHub Statistics</h3>
+<h3>📈 GitHub Statistics</h3>
 
-  <img src="https://raw.githubusercontent.com/bynguts/github-stats/generated/overview.svg#gh-dark-mode-only" />
-  <img src="https://raw.githubusercontent.com/bynguts/github-stats/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/bynguts/github-stats/blob/generated/overview.svg" />
 
-  <br />
-  <br />
+<br />
+<br />
 
-  <img src="https://raw.githubusercontent.com/bynguts/github-stats/generated/languages.svg#gh-dark-mode-only" />
-  <img src="https://raw.githubusercontent.com/bynguts/github-stats/generated/languages.svg#gh-light-mode-only" />
+<img src="https://github.com/bynguts/github-stats/blob/generated/languages.svg" />
 
-  <br />
-  <br />
+<br />
+<br />
 
-  <h3>🔥 Streak Stats</h3>
+<h3>🔥 Streak Stats</h3>
 
-  <img src="https://streak-stats.demolab.com?user=bynguts&theme=onedark&hide_border=true&border_radius=10" />
+<img src="https://streak-stats.demolab.com?user=bynguts&theme=onedark&hide_border=true&border_radius=10" />
 
-  </div>
+</div>
 
 </details>
