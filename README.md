@@ -25,18 +25,18 @@
 ### Just someone trying to make things happen.
 
 - 🎬 Anime, movies, and music are my escape from tiring routines.
-
 - 🎮 I love story-driven single-player games.
-
 - ⚔️ Guts reminds me to keep moving forward, even when life feels impossible.
+- 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰.
+- 🖥️ I want **Mac Studiooooossssssss** 😭😭😭😭😭
 
-- 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰
-
-- I want **Mac Studiooooossssssss** 😭😭😭😭😭
+<br />
 
 ***"Fate may be written, but the struggler keeps fighting against it."***
 
 <br clear="right" />
+
+<br />
 
 ## 📊 Stats and Activity
 
