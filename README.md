@@ -2,6 +2,8 @@
 
 # Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" />
 
+### ⚔️ Dark Fantasy Enjoyer
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C9A646&center=true&vCenter=true&width=760&lines=Welcome+to+my+GitHub;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta;Make+it+happen%21)](https://git.io/typing-svg)
 
 </div>
@@ -19,7 +21,7 @@
 
 ## 🕯️ About Me
 
-<img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="250" />
+<img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="230" />
 
 Hi, I'm **bynguts**.
 
@@ -34,24 +36,19 @@ Hi, I'm **bynguts**.
 
 <br />
 
-<details open>
-  <summary><h2>📊 Stats and Activity</h2></summary>
-
-<br />
+## 📊 Stats and Activity
 
 <p align="center">
   <img
     align="top"
     src="https://github.com/bynguts/github-stats/blob/generated/overview.svg"
-    width="49%"
+    width="43%"
     alt="bynguts's GitHub Statistics"
   />
   <img
     align="top"
     src="https://github.com/bynguts/github-stats/blob/generated/languages.svg"
-    width="49%"
+    width="43%"
     alt="bynguts's Most Used Languages"
   />
 </p>
-
-</details>
