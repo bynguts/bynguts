@@ -1,6 +1,7 @@
 <div align="center"><h1>Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="42px" /></h1>
 
 <br />
+<br />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Make+it+happen%21;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta" alt="Typing SVG" />
 
@@ -15,7 +16,6 @@
 <img height="20" src="https://api.visitorbadge.io/api/visitors?path=bynguts.bynguts&label=Visitors&labelColor=%236A0DAD&countColor=%239D4EDD&style=flat" />
 
 </div>
-
 
 ## 🕯️ About Me
 
