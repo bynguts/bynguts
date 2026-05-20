@@ -1,12 +1,8 @@
-<table border="0" width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=bynguts&amp;show_icons=true&amp;theme=onedark&amp;ranking_combined=true&amp;random=1" alt="GitHub stats" />
-      <br><br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&amp;layout=compact&amp;theme=onedark&amp;hide=html,css&amp;random=1" alt="Top Languages" />
-    </td>
-    <td width="40%" valign="top" align="center">
-      <img src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" alt="Guts Pixel Art" width="100%" />
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=bynguts&show_icons=true&theme=onedark" height="165" />
+  <img src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="165" style="border-radius: 10px;" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&theme=onedark&hide=html,css" />
+</p>
