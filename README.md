@@ -46,21 +46,17 @@ Hi, I'm **bynguts**.
 
 <div align="center">
 
-<h3>⚔️ GitHub Statistics</h3>
-
-<img src="https://github.com/bynguts/github-stats/blob/generated/overview.svg" />
-
-<br />
-<br />
-
-<img src="https://github.com/bynguts/github-stats/blob/generated/languages.svg" />
-
-<br />
-<br />
-
 <h3>🔥 Streak Stats</h3>
 
 <img src="https://streak-stats.demolab.com?user=bynguts&background=0B0A0A&border=2A2323&stroke=2A2323&ring=C9A646&fire=8B1E1E&currStreakNum=C9A646&sideNums=C9A646&currStreakLabel=D8CBB8&sideLabels=D8CBB8&dates=8A8178&hide_border=false" />
+
+<br />
+<br />
+
+<h3>💻 GitHub Profile Stats</h3>
+
+<img height="190" src="https://github-readme-stats.vercel.app/api?username=bynguts&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646&border_color=2A2323" />
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&langs_count=8&hide_border=false&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646&border_color=2A2323" />
 
 </div>
 
