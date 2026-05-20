@@ -1,16 +1,12 @@
-## Hi there 👋
+## 📊 My GitHub Analytics
 
-<!--
-**bynguts/bynguts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=bynguts&show_icons=true&theme=tokyonight&ranking_combined=true" alt="Bynguts's GitHub stats" height="180" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" height="180" />
+</p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔥 Streak Stats
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bynguts&theme=tokyonight" alt="GitHub Streak" />
+</p>
