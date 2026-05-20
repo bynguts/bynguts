@@ -1,10 +1,10 @@
 <div align="center">
 
-# Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" />
+<h3>Hi there, I'm bynguts <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" /></h3>
 
-### ⚔️ Dark Fantasy Enjoyer
+<h4>⚔️ Dark Fantasy Enjoyer</h4>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C9A646&center=true&vCenter=true&width=760&lines=Welcome+to+my+GitHub;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta;Make+it+happen%21)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C9A646&center=true&vCenter=true&width=760&lines=Make+it+happen%21;I+love+movies;Big+fan+of+Guts%2C+Gintoki%2C+and+Bayonetta)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <br />
 
-## 🕯️ About Me
+<h3>🕯️ About Me</h3>
 
 <img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="230" />
 
@@ -36,7 +36,7 @@ Hi, I'm **bynguts**.
 
 <br />
 
-## 📊 Stats and Activity
+<h3>📊 Stats and Activity</h3>
 
 <p align="center">
   <img
