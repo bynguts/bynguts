@@ -32,6 +32,8 @@
 
 - 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰
 
+- I want **Mac Studiooooossssssss** 😭😭😭😭😭
+
 <br clear="right" />
 
 ## 📊 Stats and Activity
