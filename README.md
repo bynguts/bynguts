@@ -13,7 +13,7 @@
   <a href="https://open.spotify.com/user/31hu2k464exiac6fjpclqpxgkr2a"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat&logo=spotify&logoColor=white" /></a>
   <a href="https://letterboxd.com/bynguts/"><img src="https://img.shields.io/badge/Letterboxd-202830?style=flat&logo=letterboxd&logoColor=white" /></a>
   <img src="https://img.shields.io/github/followers/bynguts?style=flat&logo=github&label=Followers&labelColor=181717&color=3A3A3A&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=6A0DAD" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=bynguts.bynguts&label=Visitors&labelColor=%236A0DAD&countColor=%239D4EDD&style=flat" />
 </p>
 
 <br />
