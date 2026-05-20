@@ -11,9 +11,9 @@
   <a href="https://www.instagram.com/bibinanshori?igsh=MTBnZmJyZDAzNTNlYw=="><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
   <a href="https://discord.com/users/1025391723733598228"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" /></a>
   <a href="https://open.spotify.com/user/31hu2k464exiac6fjpclqpxgkr2a"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat&logo=spotify&logoColor=white" /></a>
-  <a href="https://letterboxd.com/bynguts/"><img src="https://img.shields.io/badge/Letterboxd-202830?style=flat&logo=letterboxd&logoColor=FF8000" /></a>
+  <a href="https://letterboxd.com/bynguts/"><img src="https://img.shields.io/badge/Letterboxd-202830?style=flat&logo=letterboxd&logoColor=white" /></a>
   <img src="https://img.shields.io/github/followers/bynguts?style=flat&logo=github&label=Followers&labelColor=181717&color=3A3A3A&logoColor=white" />
-  <img src="https://api.visitorbadge.io/api/visitors?path=bynguts.bynguts&label=Visitors&labelColor=%236A0DAD&countColor=%239D4EDD&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=6A0DAD" />
 </p>
 
 <br />
