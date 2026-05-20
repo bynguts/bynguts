@@ -44,20 +44,21 @@ Hi, I'm **bynguts**.
 <details open>
   <summary><h2>📊 Stats and Activity</h2></summary>
 
-<div align="center">
+### 🔥 Streak Stats
 
-<h3>🔥 Streak Stats</h3>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=bynguts&theme=radical&hide_border=true" />
+</p>
 
-<img src="https://streak-stats.demolab.com?user=bynguts&background=0B0A0A&border=2A2323&stroke=2A2323&ring=C9A646&fire=8B1E1E&currStreakNum=C9A646&sideNums=C9A646&currStreakLabel=D8CBB8&sideLabels=D8CBB8&dates=8A8178&hide_border=false" />
+### 💻 GitHub Profile Stats
 
-<br />
-<br />
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=bynguts&show_icons=true&theme=radical&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&theme=radical&hide_border=true" />
+</p>
 
-<h3>💻 GitHub Profile Stats</h3>
-
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=bynguts&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646&border_color=2A2323" />
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&langs_count=8&hide_border=false&bg_color=0B0A0A&title_color=C9A646&text_color=D8CBB8&icon_color=C9A646&border_color=2A2323" />
-
-</div>
+<p align="center">
+  <i>Note: Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</i>
+</p>
 
 </details>
