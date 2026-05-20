@@ -32,7 +32,7 @@
 
 - ⚔️ Guts is my role model.
 
-- 🦋 Currently building **Cereza**, an agentic AI inspired by my **Mommy** 🥰
+- 🦋 Currently building **Cereza**, an Agentic AI inspired by my **Mommy** 🥰
 
 - I want **Mac Studiooooossssssss** 😭😭😭😭😭
 
