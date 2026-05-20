@@ -41,13 +41,25 @@
 <p align="left">
   <img
     align="top"
-    src="https://github.com/bynguts/github-stats/blob/generated/overview.svg"
+    src="https://github.com/bynguts/github-stats/blob/generated/overview.svg#gh-dark-mode-only"
     width="43%"
     alt="bynguts's GitHub Statistics"
   />
   <img
     align="top"
-    src="https://github.com/bynguts/github-stats/blob/generated/languages.svg"
+    src="https://github.com/bynguts/github-stats/blob/generated/languages.svg#gh-dark-mode-only"
+    width="43%"
+    alt="bynguts's Most Used Languages"
+  />
+  <img
+    align="top"
+    src="https://github.com/bynguts/github-stats/blob/generated/overview.svg#gh-light-mode-only"
+    width="43%"
+    alt="bynguts's GitHub Statistics"
+  />
+  <img
+    align="top"
+    src="https://github.com/bynguts/github-stats/blob/generated/languages.svg#gh-light-mode-only"
     width="43%"
     alt="bynguts's Most Used Languages"
   />
