@@ -6,3 +6,12 @@
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bynguts&layout=compact&theme=onedark&hide=html,css" />
 </p>
+
+<div align="center">
+
+## bynguts's GitHub Statistics
+
+![](https://github.com/bynguts/github-stats/blob/generated/overview.svg)
+![](https://github.com/bynguts/github-stats/blob/generated/languages.svg)
+
+</div>
