@@ -12,7 +12,7 @@
   <a href="https://discord.com/users/1025391723733598228"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" /></a>
   <a href="https://open.spotify.com/user/31hu2k464exiac6fjpclqpxgkr2a"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat&logo=spotify&logoColor=white" /></a>
   <img src="https://img.shields.io/github/followers/bynguts?style=flat&logo=github&label=Followers&color=181717&labelColor=181717&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=8B1E1E&labelColor=8B1E1E" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=bynguts.bynguts&left_text=Visitors&left_color=8B1E1E&right_color=8B1E1E" />
 </p>
 
 <br />
