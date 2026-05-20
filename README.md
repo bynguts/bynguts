@@ -16,7 +16,6 @@
 
 </div>
 
-<br />
 
 ## 🕯️ About Me
 
