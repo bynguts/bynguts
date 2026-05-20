@@ -12,7 +12,7 @@
   <a href="https://discord.com/users/1025391723733598228"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" /></a>
   <a href="https://open.spotify.com/user/31hu2k464exiac6fjpclqpxgkr2a"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat&logo=spotify&logoColor=white" /></a>
   <img src="https://img.shields.io/github/followers/bynguts?style=flat&logo=github&label=Followers&color=181717&labelColor=181717&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=8B1E1E" />
+  <img src="https://komarev.com/ghpvc/?username=bynguts&label=Visitors&style=flat&color=8B1E1E&labelColor=8B1E1E" />
 </p>
 
 <br />
@@ -65,12 +65,6 @@ Hi, I'm **bynguts**.
 
 <p align="center">
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-</p>
-
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img alt="bynguts's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=bynguts&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" />
-  </a>
 </p>
 
 </details>
