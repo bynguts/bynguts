@@ -22,15 +22,15 @@
 
 <img align="right" src="https://github.com/bynguts/bynguts/raw/main/guts-pixel.png" height="260" />
 
-I’m someone who loves exploring things deeply.
+### Just someone trying to make things happen.
 
-Anime, movies, music, and story-driven single-player games are my favorite escapes from exhausting routines. Romance is my comfort genre, and stories have always been a place where I can breathe for a while.
+- 🎬 Anime, movies, and music are my escape from tiring routines.
 
-**Guts** is one of my biggest role models. His story helped me survive some of the hardest moments in my life. Because of him, I believe that if we cannot change fate, then we have to fight against it.
+- 🎮 I love story-driven single-player games.
 
-Right now, my main focus is building **Cereza**, an agentic AI inspired by **Bayonetta**, my favorite game. I want Cereza to become a personal assistant — my right hand that can help me do things, think with me, and make life easier.
+- ⚔️ Guts reminds me to keep moving forward, even when life feels impossible.
 
-**Make it happen!**
+- 🦋 Currently building **Cereza**, an agentic AI inspired by my fav game.
 
 <br clear="right" />
 
