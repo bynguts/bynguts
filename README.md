@@ -51,24 +51,21 @@ Hi, I'm **bynguts**.
     <td align="center" valign="top">
       <img 
         src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=bynguts&custom_title=bynguts%27s%20GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" 
-        width="430"
+        width="300"
         alt="bynguts's GitHub Stats"
       />
     </td>
     <td align="center" valign="top">
       <img 
         src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=bynguts&custom_title=Most%20Used%20Languages&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" 
-        width="330"
+        width="300"
         alt="bynguts's Top Languages"
       />
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br />
+    <td align="center" valign="top">
       <img 
         src="https://github-readme-streak-stats-eight.vercel.app/?user=bynguts&theme=monokai-metallian&hide_border=true&short_numbers=true" 
-        width="620"
+        width="300"
         alt="bynguts's Streak Stats"
       />
     </td>
