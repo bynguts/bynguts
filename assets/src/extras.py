@@ -1,7 +1,8 @@
 """Dithered section headers and animated ember footer for the profile README.
 
-Both use a transparent background so they read on GitHub's light and dark
-themes. Same Bayer 8x8 ordered dithering as hero.py.
+Both sit on the same solid void background as the hero and boot log, so the
+page reads as one dark system on GitHub's light and dark themes. Same Bayer
+8x8 ordered dithering as hero.py.
 
 Fonts: Silkscreen-Regular.ttf and Silkscreen-Bold.ttf in assets/src/fonts/.
 Run: python assets/src/extras.py assets
@@ -18,8 +19,8 @@ OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE
 OUT.mkdir(parents=True, exist_ok=True)
 SCALE = 2
 
-# index 0 is transparent
-PALETTE = [(0, 0, 0), (127, 29, 29), (185, 28, 28), (239, 68, 68)]
+# index 0 is the void background
+PALETTE = [(13, 17, 23), (127, 29, 29), (185, 28, 28), (239, 68, 68)]
 LEVELS = len(PALETTE)
 
 
@@ -52,7 +53,6 @@ def text_mask(text, font, size):
 def to_image(idx):
     im = Image.fromarray(idx, "P")
     im.putpalette([c for rgb in PALETTE for c in rgb])
-    im.info["transparency"] = 0
     w, h = im.size
     return im.resize((w * SCALE, h * SCALE), Image.NEAREST)
 
@@ -64,10 +64,10 @@ def header(num, label, name):
     idx = np.zeros((H, W), np.uint8)
     y = (H - lab_m.shape[0]) // 2
     x = 0
-    idx[y : y + num_m.shape[0], x : x + num_m.shape[1]][num_m] = 1
+    idx[y : y + num_m.shape[0], x : x + num_m.shape[1]][num_m] = 2
     x += num_m.shape[1] + 6
     slash = text_mask("/", "Silkscreen-Regular.ttf", 8)
-    idx[y : y + slash.shape[0], x : x + slash.shape[1]][slash] = 1
+    idx[y : y + slash.shape[0], x : x + slash.shape[1]][slash] = 2
     x += slash.shape[1] + 6
     idx[y : y + lab_m.shape[0], x : x + lab_m.shape[1]][lab_m] = 3
     x += lab_m.shape[1] + 10
@@ -78,7 +78,7 @@ def header(num, label, name):
     rule = dither(np.tile(fade, (3, 1)))
     idx[ry : ry + 3, x:] = rule
     im = to_image(idx)
-    im.save(OUT / name, optimize=True, transparency=0)
+    im.save(OUT / name, optimize=True)
     print(name, (OUT / name).stat().st_size, "B")
 
 
@@ -143,8 +143,7 @@ def footer(name, quotes):
         append_images=frames[1:],
         duration=90,
         loop=0,
-        transparency=0,
-        disposal=2,
+        disposal=1,
         optimize=False,
     )
     print(name, (OUT / name).stat().st_size // 1024, "KB")

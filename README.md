@@ -19,10 +19,8 @@
 <img src="assets/h-activity.png" width="100%" alt="02 / Activity" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/overview.svg#gh-dark-mode-only" width="49%" alt="bynguts's GitHub statistics" />
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/languages.svg#gh-dark-mode-only" width="49%" alt="bynguts's most used languages" />
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/overview.svg#gh-light-mode-only" width="49%" alt="bynguts's GitHub statistics" />
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/languages.svg#gh-light-mode-only" width="49%" alt="bynguts's most used languages" />
+  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/overview.svg" width="49%" alt="bynguts's GitHub statistics" />
+  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/languages.svg" width="49%" alt="bynguts's most used languages" />
 </p>
 
 <p align="center">
