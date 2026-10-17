@@ -14,17 +14,7 @@
 
 **Just someone trying to make things happen.**
 
-```text
-bynguts@cereza
-──────────────────────────────────────────────────────────
- status ....... building Cereza, an agentic AI inspired by my Mommy 🥰
- stack ........ go · python · typescript
- escape ....... anime · movies · music, away from tiring routines
- plays ........ story-driven single-player games
- fandom ....... guts · gintoki · bayonetta
- role model ... guts, always
- wishlist ..... Mac Studiooooossssssss 😭😭😭😭😭
-```
+<img src="assets/boot.gif" width="100%" alt="cereza.boot: waking the witch, done. Binding agents, 3 of 3. Loading stack: Go, Python, TypeScript. Role model: Guts. Off-duty: anime, film, story games. Wishlist: unlimited Claude Code. Umbran climax charging, 72%. Operator: bynguts." />
 
 <br />
 
