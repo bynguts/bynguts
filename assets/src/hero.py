@@ -116,9 +116,10 @@ prompt_y = tag_y + 18
 paste(copy_layer, prompt, TX + 4, prompt_y)
 cursor_x = TX + 4 + prompt.shape[1] + 3
 
-# thin rule under the title copy
+# thin rule under the title, spanning the wordmark's ink from "b" to "s"
+ink = np.nonzero(title.max(axis=0) > 0.5)[0]
 rule = np.zeros((H, W), np.float32)
-rule[tag_y - 6, TX + 4 : TX + 4 + tag.shape[1]] = 1.0
+rule[tag_y - 6, TX + ink[0] : TX + ink[-1] + 1] = 1.0
 
 # --- frames ----------------------------------------------------------------
 

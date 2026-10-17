@@ -18,10 +18,7 @@
 
 <img src="assets/h-activity.png" width="100%" alt="02 / Activity" />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/overview.svg" width="49%" alt="bynguts's GitHub statistics" />
-  <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/languages.svg" width="49%" alt="bynguts's most used languages" />
-</p>
+<img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/activity.png" width="100%" alt="bynguts.stats: GitHub overview (stars, forks, contributions, lines changed, views, repos) and most used languages by file size, synced daily." />
 
 <p align="center">
   <picture>
