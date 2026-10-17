@@ -92,10 +92,27 @@ def periodic_noise(h, w, seed, scale):
     return (n - n.min()) / (n.max() - n.min())
 
 
-def footer(name, quote):
-    W, H, FRAMES = 450, 64, 24
-    q = text_mask(quote, "Silkscreen-Regular.ttf", 8)
-    qx, qy = (W - q.shape[1]) // 2, 6
+def typing_script(quotes, cps=3, hold=14, erase=8):
+    """Per-frame (quote index, visible chars, cursor on) for type/hold/erase."""
+    steps = []
+    for qi, q in enumerate(quotes):
+        n = len(q)
+        for c in range(0, n + cps, cps):
+            steps.append((qi, min(c, n), True))
+        for k in range(hold):
+            steps.append((qi, n, (k // 3) % 2 == 0))
+        for k in range(erase):
+            steps.append((qi, int(n * (1 - (k + 1) / erase)), True))
+    return steps
+
+
+def footer(name, quotes):
+    W, H = 450, 64
+    script = typing_script(quotes)
+    FRAMES = len(script)
+    masks = [text_mask(q, "Silkscreen-Regular.ttf", 8) for q in quotes]
+    # per-prefix masks so each frame shows a clean partial string
+    qy = 6
     # tileable noise in y so the upward scroll loops seamlessly
     n1 = periodic_noise(H, W, 7, 9.0)
     n2 = periodic_noise(H, W, 11, 22.0)
@@ -109,7 +126,16 @@ def footer(name, quote):
         b = np.roll(n2, -s2, 0)
         field = np.clip((a * 0.65 + b * 0.55 - 0.42) * 2.2, 0, 1) * ramp
         idx = dither(field)
-        idx[qy : qy + q.shape[0], qx : qx + q.shape[1]][q] = 3
+        qi, chars, cursor = script[f]
+        full = masks[qi]
+        qx = (W - full.shape[1]) // 2  # anchor at the full quote's centred start
+        x = qx
+        if chars:
+            part = text_mask(quotes[qi][:chars], "Silkscreen-Regular.ttf", 8)
+            idx[qy : qy + part.shape[0], qx : qx + part.shape[1]][part] = 3
+            x = qx + part.shape[1]
+        if cursor:
+            idx[qy : qy + full.shape[0], x + 2 : x + 6] = 3
         frames.append(to_image(idx))
     frames[0].save(
         OUT / name,
@@ -125,6 +151,11 @@ def footer(name, quote):
 
 
 header("01", "ABOUT", "h-about.png")
-header("02", "ARSENAL", "h-arsenal.png")
-header("03", "ACTIVITY", "h-activity.png")
-footer("footer.gif", "FATE MAY BE WRITTEN, BUT THE STRUGGLER KEEPS FIGHTING AGAINST IT.")
+header("02", "ACTIVITY", "h-activity.png")
+footer(
+    "footer.gif",
+    [
+        "FATE MAY BE WRITTEN, BUT THE STRUGGLER KEEPS FIGHTING AGAINST IT.",
+        "JUST SOMEONE TRYING TO MAKE THINGS HAPPEN.",
+    ],
+)

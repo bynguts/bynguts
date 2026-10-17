@@ -12,38 +12,11 @@
 
 <img src="assets/h-about.png" width="100%" alt="01 / About" />
 
-<img src="assets/boot.gif" width="100%" alt="cereza.boot. Just someone trying to make things happen. Waking the witch, done. Binding agents, 3 of 3. Loading stack: Go, Python, TypeScript. Role model: Guts. Off-duty: anime, film, story games. Wishlist: unlimited Claude Code. Umbran climax charging, 72%. Operator: bynguts." />
+<img src="assets/boot.gif" width="100%" alt="cereza.boot: waking the witch, done. Binding agents, 3 of 3. Loading stack: Go, Python, TypeScript. Role model: Guts. Off-duty: anime, film, story games. Wishlist: unlimited Claude Code. Umbran climax charging, 72%. Operator: bynguts." />
 
 <br />
 
-<img src="assets/h-arsenal.png" width="100%" alt="02 / Arsenal" />
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Go-0d1117?style=for-the-badge&logo=go&logoColor=ef4444" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ef4444" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=ef4444" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=ef4444" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=ef4444" alt="PHP" />
-  <img src="https://img.shields.io/badge/Dart-0d1117?style=for-the-badge&logo=dart&logoColor=ef4444" alt="Dart" />
-  <img src="https://img.shields.io/badge/Zig-0d1117?style=for-the-badge&logo=zig&logoColor=ef4444" alt="Zig" />
-  <br />
-  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=ef4444" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=ef4444" alt="Node.js" />
-  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=ef4444" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flutter-0d1117?style=for-the-badge&logo=flutter&logoColor=ef4444" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Three.js-0d1117?style=for-the-badge&logo=threedotjs&logoColor=ef4444" alt="Three.js" />
-  <img src="https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=ef4444" alt="Vite" />
-  <br />
-  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=ef4444" alt="Docker" />
-  <img src="https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=ef4444" alt="MySQL" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=ef4444" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Vercel-0d1117?style=for-the-badge&logo=vercel&logoColor=ef4444" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Obsidian-0d1117?style=for-the-badge&logo=obsidian&logoColor=ef4444" alt="Obsidian" />
-</p>
-
-<br />
-
-<img src="assets/h-activity.png" width="100%" alt="03 / Activity" />
+<img src="assets/h-activity.png" width="100%" alt="02 / Activity" />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/overview.svg#gh-dark-mode-only" width="49%" alt="bynguts's GitHub statistics" />
@@ -66,4 +39,4 @@
 
 <br />
 
-<img src="assets/footer.gif" width="100%" alt="Fate may be written, but the struggler keeps fighting against it." />
+<img src="assets/footer.gif" width="100%" alt="Typed in turn: Fate may be written, but the struggler keeps fighting against it. Just someone trying to make things happen." />
