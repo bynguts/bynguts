@@ -84,7 +84,6 @@ panel[:, 0] = panel[:, -1] = CRIMSON
 bar = dither(np.tile(np.clip(1.0 - np.arange(W - 2) / (W * 0.9), 0, 1) * 0.5, (13, 1)))
 panel[1:14, 1:-1] = bar
 text(panel, "CEREZA.BOOT", 8, 4, BONE, bold=True)
-text(panel, "TTY0  //  OPERATOR BYNGUTS", W - 150, 4, BRIGHT)
 
 LX, LY, STEP = 10, 24, 13
 VALUE_X = W - 10  # values are right-aligned to this edge
