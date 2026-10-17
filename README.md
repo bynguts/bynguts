@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.gif" width="100%" alt="bynguts: struggler, builder, agentic AI. Guts rendered in animated crimson dither." />
+  <img src="assets/hero.gif" width="100%" alt="bynguts: full-stack dev, AI agents. Shipping agents that do real work. Guts rendered in animated crimson dither." />
 </p>
 
 <p align="center">

@@ -99,8 +99,8 @@ portrait *= np.clip(1.15 - 0.75 * dv ** 2, 0.25, 1.0)
 
 # Title and lines of copy
 title = text_mask("bynguts", "UnifrakturMaguntia-Book.ttf", 64)
-tag = text_mask("STRUGGLER  /  BUILDER  /  AGENTIC AI", "Silkscreen-Regular.ttf", 8, pad=0)
-prompt = text_mask("> building cereza", "Silkscreen-Regular.ttf", 8, pad=0)
+tag = text_mask("FULL-STACK DEV  /  AI AGENTS", "Silkscreen-Regular.ttf", 8, pad=0)
+prompt = text_mask("> shipping agents that do real work", "Silkscreen-Regular.ttf", 8, pad=0)
 cursor = np.ones((7, 5), np.float32)
 
 TX, TY = 22, 16
