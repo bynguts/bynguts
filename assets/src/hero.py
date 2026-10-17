@@ -5,7 +5,7 @@ dithering into a 5-tone blood palette, then upscales with nearest neighbour so
 every dither dot stays crisp.
 
 Fonts (OFL, from github.com/google/fonts) go in assets/src/fonts/:
-UnifrakturMaguntia-Book.ttf, Silkscreen-Regular.ttf.
+PirataOne-Regular.ttf, Silkscreen-Regular.ttf.
 Run: python assets/src/hero.py assets/hero.gif
 """
 import math
@@ -105,7 +105,7 @@ dv = np.sqrt(((xx - FACE_X) / 95.0) ** 2 + ((yy - FACE_Y) / 80.0) ** 2)
 portrait *= np.clip(1.15 - 0.75 * dv ** 2, 0.25, 1.0)
 
 # Title and lines of copy
-title = text_mask("bynguts", "UnifrakturMaguntia-Book.ttf", 64)
+title = text_mask("bynguts", "PirataOne-Regular.ttf", 68)
 PIXEL = ImageFont.truetype(str(FONTS / "Silkscreen-Regular.ttf"), 8)
 PIXEL_TOP = PIXEL.getbbox("> AG")[1]
 
@@ -128,7 +128,7 @@ DIAMOND = np.array(
     np.float32,
 )
 
-TX, TY = 22, 16
+TX, TY = 22, 12
 title_layer = np.zeros((H, W), np.float32)
 paste(title_layer, title, TX, TY)
 # vertical bone -> crimson gradient through the letters
