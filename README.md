@@ -12,9 +12,7 @@
 
 <img src="assets/h-about.png" width="100%" alt="01 / About" />
 
-**Just someone trying to make things happen.**
-
-<img src="assets/boot.gif" width="100%" alt="cereza.boot: waking the witch, done. Binding agents, 3 of 3. Loading stack: Go, Python, TypeScript. Role model: Guts. Off-duty: anime, film, story games. Wishlist: unlimited Claude Code. Umbran climax charging, 72%. Operator: bynguts." />
+<img src="assets/boot.gif" width="100%" alt="cereza.boot. Just someone trying to make things happen. Waking the witch, done. Binding agents, 3 of 3. Loading stack: Go, Python, TypeScript. Role model: Guts. Off-duty: anime, film, story games. Wishlist: unlimited Claude Code. Umbran climax charging, 72%. Operator: bynguts." />
 
 <br />
 

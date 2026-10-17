@@ -17,7 +17,7 @@ HERE = Path(__file__).parent
 FONTS = HERE / "fonts"
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "boot.gif"
 
-W, H = 450, 144
+W, H = 450, 158
 SCALE = 2
 
 # void, dried blood, crimson, bright red, bone
@@ -85,8 +85,9 @@ bar = dither(np.tile(np.clip(1.0 - np.arange(W - 2) / (W * 0.9), 0, 1) * 0.5, (1
 panel[1:14, 1:-1] = bar
 text(panel, "CEREZA.BOOT", 8, 4, BONE, bold=True)
 text(panel, "TTY0  //  OPERATOR BYNGUTS", W - 150, 4, BRIGHT)
+text(panel, "// JUST SOMEONE TRYING TO MAKE THINGS HAPPEN.", 10, 22, CRIMSON)
 
-LX, LY, STEP = 10, 24, 13
+LX, LY, STEP = 10, 38, 13
 VALUE_X = W - 10  # values are right-aligned to this edge
 TAG_COLOR = {"OK": BRIGHT, "!!": BONE, "..": CRIMSON}
 
