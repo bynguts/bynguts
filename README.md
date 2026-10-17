@@ -18,7 +18,7 @@
 
 <img src="assets/h-activity.png" width="100%" alt="02 / Activity" />
 
-<img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/activity.png" width="100%" alt="bynguts.stats: GitHub overview (stars, forks, contributions, lines changed, views, repos) and most used languages by file size." />
+<img src="https://raw.githubusercontent.com/bynguts/bynguts/stats/activity.png" width="100%" alt="bynguts.stats: GitHub overview (stars, forks, contributions, lines changed, views, repos). bynguts.languages: most used languages by file size." />
 
 <p align="center">
   <picture>
