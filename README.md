@@ -26,10 +26,6 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=bynguts&theme=dark&background=0D1117&border=30363D&ring=EF4444&fire=EF4444&currStreakLabel=EF4444&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&border_radius=6" width="98%" alt="bynguts's GitHub streak" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bynguts/bynguts/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bynguts/bynguts/output/github-snake.svg" />
