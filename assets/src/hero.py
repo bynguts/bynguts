@@ -24,11 +24,11 @@ SCALE = 2                # output is 900x300
 LOOP = 40               # background animation period, in frames
 FRAME_MS = 80
 
-# Typed in turn under the role line, one sentence per row.
+# Typed in turn under the role line, one sentence at a time.
 STATEMENTS = [
-    ("building the products you use every day.", "making my mark."),
-    ("solving real problems with technology.", "yours and mine."),
-    ("coding obsessively.", "building with joy."),
+    "building the products you use every day.",
+    "solving real problems with technology.",
+    "coding obsessively, building with joy.",
 ]
 
 # Palette: void, dried blood, crimson, bright red, bone
@@ -106,7 +106,7 @@ portrait *= np.clip(1.15 - 0.75 * dv ** 2, 0.25, 1.0)
 
 # Title and lines of copy
 title = text_mask("bynguts", "UnifrakturMaguntia-Book.ttf", 64)
-tag = text_mask("FULL-STACK DEV  /  AI AGENTS", "Silkscreen-Regular.ttf", 8, pad=0)
+tag = text_mask("FULL-STACK DEV  +  AI AGENTS", "Silkscreen-Regular.ttf", 8, pad=0)
 PIXEL = ImageFont.truetype(str(FONTS / "Silkscreen-Regular.ttf"), 8)
 PIXEL_TOP = PIXEL.getbbox("> AG")[1]
 
@@ -118,30 +118,31 @@ def pixel_row(text):
     return np.asarray(im, dtype=np.float32) / 255.0
 
 
-def typing_script(statements, cps=3, hold=20, erase=6):
+def typing_script(statements, cps=3, hold=19, erase=6):
     """Per-frame (statement, visible chars, cursor on): type, hold, erase."""
+    typed = [len(range(0, len(line) + cps, cps)) for line in statements]
+    # spread the padding over every hold so the typing loop is a whole
+    # number of background loops and each sentence rests equally long
+    extra = -(sum(typed) + len(statements) * (hold + erase)) % LOOP
+    holds = [hold + extra // len(statements) + (i < extra % len(statements)) for i in range(len(statements))]
     steps = []
-    for si, (a, b) in enumerate(statements):
-        n = len(a) + len(b)
+    for si, line in enumerate(statements):
+        n = len(line)
         for c in range(0, n + cps, cps):
             steps.append((si, min(c, n), True))
-        for k in range(hold):
+        for k in range(holds[si]):
             steps.append((si, n, (k // 4) % 2 == 0))
         for k in range(erase):
             steps.append((si, int(n * (1 - (k + 1) / erase)), True))
-    # pad the last hold so the typing loop is a whole number of background loops
-    while len(steps) % LOOP:
-        steps.insert(len(steps) - erase, (len(statements) - 1, n, True))
     # start on the first statement fully typed, so the still frame GitHub
     # shows with reduced motion reads as a complete line
-    first = len(statements[0][0]) + len(statements[0][1])
+    first = len(statements[0])
     start = next(i for i, (si, c, _) in enumerate(steps) if si == 0 and c == first)
     return steps[start:] + steps[:start]
 
 
 SCRIPT = typing_script(STATEMENTS)
 FRAMES = len(SCRIPT)
-INDENT = int(PIXEL.getlength("> "))
 
 TX, TY = 22, 16
 title_layer = np.zeros((H, W), np.float32)
@@ -153,7 +154,6 @@ copy_layer = np.zeros((H, W), np.float32)
 tag_y = TY + title.shape[0] + 4
 paste(copy_layer, tag, TX + 4, tag_y)
 prompt_y = tag_y + 18
-ROW_STEP = 13
 
 # thin rule under the title, spanning the wordmark's ink from "b" to "s"
 ink = np.nonzero(title.max(axis=0) > 0.5)[0]
@@ -194,21 +194,15 @@ for f in range(FRAMES):
     sweep = np.exp(-(((xx - TX) + (yy - TY) * 0.6 - sweep_x) / 14.0) ** 2) * 0.55
     field = np.maximum(field, title_layer * np.clip(title_grad + sweep, 0, 1))
     field = np.maximum(field, rule * 0.45)
-    # typed statement: "> " + first sentence, second sentence indented below
+    # typed statement after the prompt, cursor at the end of the ink
     si, chars, cursor_on = SCRIPT[f]
-    a, b = STATEMENTS[si]
+    line = pixel_row("> " + STATEMENTS[si][:chars])
     text = np.zeros((H, W), np.float32)
-    rows = [("> " + a[:chars], TX + 4, prompt_y)]
-    if chars > len(a):
-        rows.append((b[: chars - len(a)], TX + 4 + INDENT, prompt_y + ROW_STEP))
-    for s, x, y in rows:
-        paste(text, pixel_row(s), x, y)
+    paste(text, line, TX + 4, prompt_y)
     field = np.where((copy_layer > 0.5) | (text > 0.5), 0.80, field)
     if cursor_on:
-        s, x, y = rows[-1]
-        ink = np.nonzero(pixel_row(s).max(axis=0) > 0.5)[0]
-        cx = x + ink[-1] + 4
-        field[y : y + 7, cx : cx + 5] = 0.62
+        cx = TX + 4 + np.nonzero(line.max(axis=0) > 0.5)[0][-1] + 4
+        field[prompt_y : prompt_y + 7, cx : cx + 5] = 0.62
 
     idx = dither(field)
     # shimmer: re-dither only the scan band with a shifted threshold matrix
