@@ -101,6 +101,9 @@ portrait *= np.clip(1.15 - 0.75 * dv ** 2, 0.25, 1.0)
 title = text_mask("bynguts", "UnifrakturMaguntia-Book.ttf", 64)
 tag = text_mask("FULL-STACK DEV  /  AI AGENTS", "Silkscreen-Regular.ttf", 8, pad=0)
 prompt = text_mask("> shipping agents that do real work", "Silkscreen-Regular.ttf", 8, pad=0)
+motto = text_mask("solving real problems with technology.", "Silkscreen-Regular.ttf", 8, pad=0)
+# indent the motto under the prompt's text, past the "> "
+motto_dx = prompt.shape[1] - text_mask("shipping agents that do real work", "Silkscreen-Regular.ttf", 8, pad=0).shape[1]
 cursor = np.ones((7, 5), np.float32)
 
 TX, TY = 22, 16
@@ -114,6 +117,8 @@ tag_y = TY + title.shape[0] + 4
 paste(copy_layer, tag, TX + 4, tag_y)
 prompt_y = tag_y + 18
 paste(copy_layer, prompt, TX + 4, prompt_y)
+motto_y = prompt_y + 13
+paste(copy_layer, motto, TX + 4 + motto_dx, motto_y)
 cursor_x = TX + 4 + prompt.shape[1] + 3
 
 # thin rule under the title, spanning the wordmark's ink from "b" to "s"
